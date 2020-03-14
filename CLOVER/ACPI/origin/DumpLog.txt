@@ -1,0 +1,70 @@
+49:961  0:363  Found BIOS RSDP at FE300
+49:961  0:000  Printing ACPI tables from RSDP FE300 ...
+49:961  0:000   FE300: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+49:961  0:000    (Xsdt: CAFFDE18, Rsdt: CAFFDF18)
+49:961  0:000    CAFFDE18: 'XSDT', 'CBX3', Rev: 1, Len: 116
+49:961  0:000    CAFFDF18: 'RSDT', 'CBX3', Rev: 1, Len: 80
+49:961  0:000    Tables in Xsdt: 10
+49:961  0:000    0. CAF87D98: 'FACP', 'CBX3', Rev: 4, Len: 244
+49:961  0:000        (Dsdt: CAF66018, Facs: CAFE4E40, XDsdt: CAF66018, XFacs: CAFE4D40)
+49:961  0:000        CAF66018: 'DSDT', 'SYSFexxx', Rev: 2, Len: 33992
+49:962  0:001        CAFE4D40: 'FACS', Ver: 1, Len: 64
+49:962  0:000    1. CAFFCF18: 'APIC', 'CBX3', Rev: 2, Len: 204
+49:962  0:000    2. CAFE5D18: 'TCPA', '', Rev: 2, Len: 50
+49:962  0:000    3. CAF88A98: 'SSDT', 'TPM', Rev: 1, Len: 761
+49:962  0:000    4. CAFE5C98: 'MCFG', 'SNDYBRDG', Rev: 1, Len: 60
+49:962  0:000    5. CAFE5C18: 'HPET', ' PCHHPET', Rev: 1, Len: 56
+49:962  0:000    6. CAFE5B98: 'BOOT', 'CBX3', Rev: 1, Len: 40
+49:962  0:000    7. CAF7D018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2118
+49:962  0:000    8. CAF7C018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+49:962  0:000    9. CAF86C18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+49:962  0:000    Tables in Rsdt: 11
+49:962  0:000    0. CAFE4B18: 'FACP', 'CBX3', Rev: 2, Len: 132
+49:962  0:000        (Dsdt: CAF66018, Facs: CAFE4E40)
+49:962  0:000        CAF66018: 'DSDT', 'SYSFexxx', Rev: 2, Len: 33992
+49:963  0:001        CAFE4E40: 'FACS', Ver: 0, Len: 64
+49:963  0:000    1. CAFFCF18: 'APIC', 'CBX3', Rev: 2, Len: 204
+49:963  0:000    2. CAF87F18: 'ASF!', ' HCG', Rev: 32, Len: 165
+49:963  0:000    3. CAFE5D18: 'TCPA', '', Rev: 2, Len: 50
+49:963  0:000    4. CAF88A98: 'SSDT', 'TPM', Rev: 1, Len: 761
+49:963  0:000    5. CAFE5C98: 'MCFG', 'SNDYBRDG', Rev: 1, Len: 60
+49:963  0:000    6. CAFE5C18: 'HPET', ' PCHHPET', Rev: 1, Len: 56
+49:963  0:000    7. CAFE5B98: 'BOOT', 'CBX3', Rev: 1, Len: 40
+49:963  0:000    8. CAF7D018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2118
+49:963  0:000    9. CAF7C018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+49:963  0:000    10. CAF86C18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+49:963  0:000  Found UEFI Acpi 2.0 RSDP at CAFFEF98
+49:963  0:000  Saving ACPI tables from RSDP CAFFEF98 to EFI\CLOVER\ACPI\origin ...
+49:963  0:000   CAFFEF98: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+49:963  0:000    (Xsdt: CAFFDE18, Rsdt: CAFFDF18)
+49:963  0:000    CAFFDE18: 'XSDT', 'CBX3', Rev: 1, Len: 116
+49:963  0:000    CAFFDF18: 'RSDT', 'CBX3', Rev: 1, Len: 80
+49:963  0:000    Tables in Xsdt: 10
+49:963  0:000    0. CAF87D98: 'FACP', 'CBX3', Rev: 4, Len: 244
+49:963  0:000        (Dsdt: CAF66018, Facs: CAFE4E40, XDsdt: CAF66018, XFacs: CAFE4D40)
+49:963  0:000        CAF66018: 'DSDT', 'SYSFexxx', Rev: 2, Len: 33992
+49:965  0:001        CAFE4D40: 'FACS', Ver: 1, Len: 64
+49:965  0:000    1. CAFFCF18: 'APIC', 'CBX3', Rev: 2, Len: 204
+49:965  0:000    2. CAFE5D18: 'TCPA', '', Rev: 2, Len: 50
+49:965  0:000    3. CAF88A98: 'SSDT', 'TPM', Rev: 1, Len: 761
+49:965  0:000    4. CAFE5C98: 'MCFG', 'SNDYBRDG', Rev: 1, Len: 60
+49:965  0:000    5. CAFE5C18: 'HPET', ' PCHHPET', Rev: 1, Len: 56
+49:965  0:000    6. CAFE5B98: 'BOOT', 'CBX3', Rev: 1, Len: 40
+49:965  0:000    7. CAF7D018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2118
+49:965  0:000    8. CAF7C018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+49:965  0:000    9. CAF86C18: 'SLIC', 'CBX3', Rev: 3, Len: 374
+49:965  0:000    Tables in Rsdt: 11
+49:965  0:000    0. CAFE4B18: 'FACP', 'CBX3', Rev: 2, Len: 132
+49:965  0:000        (Dsdt: CAF66018, Facs: CAFE4E40)
+49:965  0:000        CAF66018: 'DSDT', 'SYSFexxx', Rev: 2, Len: 33992
+49:966  0:001        CAFE4E40: 'FACS', Ver: 0, Len: 64
+49:966  0:000    1. CAFFCF18: 'APIC', 'CBX3', Rev: 2, Len: 204
+49:966  0:000    2. CAF87F18: 'ASF!', ' HCG', Rev: 32, Len: 165
+49:966  0:000    3. CAFE5D18: 'TCPA', '', Rev: 2, Len: 50
+49:966  0:000    4. CAF88A98: 'SSDT', 'TPM', Rev: 1, Len: 761
+49:966  0:000    5. CAFE5C98: 'MCFG', 'SNDYBRDG', Rev: 1, Len: 60
+49:966  0:000    6. CAFE5C18: 'HPET', ' PCHHPET', Rev: 1, Len: 56
+49:966  0:000    7. CAFE5B98: 'BOOT', 'CBX3', Rev: 1, Len: 40
+49:966  0:000    8. CAF7D018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2118
+49:966  0:000    9. CAF7C018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+49:966  0:000    10. CAF86C18: 'SLIC', 'CBX3', Rev: 3, Len: 374
